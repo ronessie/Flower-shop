@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: inline-block;
+    background-color: #fdeefc;
+    width: 100%;
+    position: fixed;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+a {
+    padding: 10px;
+    color: #ff9ab7;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav {
+    position: absolute;
+    right: 7%;
+    top: 15px;
+}
+
+.headerItems {
+    display: inline-block;
+}
+
+.headerIcon {
+    margin: 7px;
+    padding-left: 15px;
+    color: #ff9ab7;
+    font-size: 30px;
+}
+
+hr {
+    color: #ff9ab7;
+    background-color: #ff9ab7;
+    border: none;
+    height: 1px;
+}
