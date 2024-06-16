@@ -1,5 +1,10 @@
 body {
     margin: 0;
+    background-image: url("image/intere_cvetochnogo3.jpeg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 header {
@@ -7,12 +12,16 @@ header {
     background-color: #fdeefc;
     width: 100%;
     position: fixed;
+    height: 5%;
+    padding-top: 5px;
 }
 
 footer {
     bottom: 0;
     width: 100%;
     position: fixed;
+    height: 7%;
+    background-color: #fdeefc;
 }
 
 a {
@@ -22,10 +31,16 @@ a {
     text-decoration: none;
 }
 
-nav {
+.headerNav {
     position: absolute;
     right: 7%;
     top: 15px;
+}
+
+.footerNav {
+    position: absolute;
+    right: 7%;
+    top: 25px;
 }
 
 .headerItems {
@@ -33,15 +48,28 @@ nav {
 }
 
 .headerIcon {
-    margin: 7px;
+    margin: 10px;
+    padding-left: 15px;
+    color: #ff9ab7;
+    font-size: 30px;
+    top: 10px;
+}
+
+.footerIcon {
+    margin: 10px;
     padding-left: 15px;
     color: #ff9ab7;
     font-size: 30px;
 }
 
 hr {
+    margin-top: 0;
     color: #ff9ab7;
     background-color: #ff9ab7;
     border: none;
     height: 1px;
+}
+
+.mainInf {
+
 }
