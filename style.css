@@ -5,6 +5,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-family: Candara;
 }
 
 header {
@@ -23,11 +24,12 @@ footer {
     position: fixed;
     height: 50px;
     background-color: white;
+    padding-top: 10px;
 }
 
 a {
     padding: 10px;
-    color: #ff9ab7;
+    color: #fd7ba0;
     font-size: 20px;
     text-decoration: none;
 }
@@ -51,7 +53,7 @@ a {
 .headerIcon {
     margin: 10px;
     padding-left: 15px;
-    color: #ff9ab7;
+    color: #fd7ba0;
     font-size: 30px;
     top: 10px;
 }
@@ -59,16 +61,9 @@ a {
 .footerIcon {
     margin: 10px;
     padding-left: 15px;
-    color: #ff9ab7;
+    color: #fd7ba0;
     font-size: 30px;
-}
-
-hr {
-    margin-top: 0;
-    color: #ff9ab7;
-    background-color: #ff9ab7;
-    border: none;
-    height: 1px;
+    top: 10px;
 }
 
 .mainInf {
@@ -82,4 +77,23 @@ hr {
     height: 570px;
     background-color: white;
     border-radius: 15px;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bouquetImage {
+    margin-top: 14%;
+    margin-left: 4%;
+    width: 87%;
+    height: 70%;
+    display: inline-block;
+}
+
+.bouquetText {
+    margin-top: 20%;
+    margin-left: 5px;
+    padding-right: 50px;
+    text-align: justify;
+    display: inline-block;
+    color: #fd7ba0;
 }
