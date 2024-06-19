@@ -9,10 +9,11 @@ body {
 
 header {
     display: inline-block;
-    background-color: #fdeefc;
+    position: initial;
+    background-color: white;
     width: 100%;
-    position: fixed;
-    height: 5%;
+    /*position: fixed;*/
+    height: 45px;
     padding-top: 5px;
 }
 
@@ -20,8 +21,8 @@ footer {
     bottom: 0;
     width: 100%;
     position: fixed;
-    height: 7%;
-    background-color: #fdeefc;
+    height: 50px;
+    background-color: white;
 }
 
 a {
@@ -40,7 +41,7 @@ a {
 .footerNav {
     position: absolute;
     right: 7%;
-    top: 25px;
+    top: 15px;
 }
 
 .headerItems {
@@ -72,4 +73,13 @@ hr {
 
 .mainInf {
 
+}
+
+.rectangle {
+    margin-top: 7.5%;
+    margin-left: 24%;
+    width: 1000px;
+    height: 570px;
+    background-color: white;
+    border-radius: 15px;
 }
